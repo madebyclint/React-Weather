@@ -1,12 +1,14 @@
-
 /*
  * Application Styles 
  * Author: Clint Bush - clint@madebyclint.com
  */
 
+ // Variables
+ $space-large: 2.5rem;
+
 .page-title {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    margin-top: $space-large;
+    margin-bottom: $space-large;
 }
 
 input[type=search] {

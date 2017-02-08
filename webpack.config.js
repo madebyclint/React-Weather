@@ -31,7 +31,7 @@ module.exports = {
             Examples: 'app/components/Examples.jsx',
             openWeatherMap: 'app/api/openWeatherMap.jsx',
             ErrorModal: 'app/components/ErrorModal.jsx',
-            applicationStyles: 'app/styles/app.css'
+            applicationStyles: 'app/styles/app.scss'
         },
         extensions: ['', '.js', '.jsx']
     },
@@ -46,6 +46,7 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/,
             },
             {test: /\.css$/, loader: "style!css!"},
+            {test: /\.scss$/, loader: "style!css!sass!"}
         ]
     },
     devtool: 'cheap-module-eval-source-map'
