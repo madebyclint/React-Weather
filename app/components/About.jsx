@@ -23,7 +23,7 @@ var React = require('react');
 // Arrow version
 var About = (props) => {
     return (
-        <h3>About Component</h3>
+        <h1 className="text-center page-title">About Component</h1>
     );
 };
 
