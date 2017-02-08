@@ -51,7 +51,7 @@ var Weather = React.createClass({
         return (
             // Only one parent container can go here - so one div
             <div>
-                <h1 className="text-center">Get Weather</h1>
+                <h1 className="text-center page-title">Get Weather</h1>
                 <WeatherForm onSearch={this.handleSearch}/>
                 {renderMessage()}
                 {renderError()}
